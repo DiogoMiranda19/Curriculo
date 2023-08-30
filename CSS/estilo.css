@@ -1,0 +1,191 @@
+/* Seletores de tipo de elemento */
+
+h1 {
+    font-size: 25pt;
+    color: rgb(10, 16, 112);
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    line-height: 1.5;
+    background-color: rgb(173, 245, 245);
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(197, 248, 248);
+
+}
+
+main {
+    border-radius: 10px;
+}
+
+footer {
+    margin: 1%;
+    padding: 1%;
+}
+
+nav {
+    margin: 2%;
+    padding: 2%;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(86, 255, 184);
+    border-radius: 10px;
+}
+
+
+
+
+/*Seletores de ID */
+
+
+#dadosgerais {
+    color: black;
+    font-size: 27pt;
+}
+
+
+
+#main1,
+#main2,
+#main3 {
+    background-color: rgb(252, 252, 252);
+    border: 3px solid black;
+
+}
+
+a {
+    color: rgb(153, 5, 5);
+    font-size: 13pt;
+
+}
+
+
+
+
+/* Seletores de descendentes */
+
+nav a {
+    color: rgb(153, 5, 5);
+    font-size: 13pt;
+
+}
+
+form h2 {
+    color: rgb(9, 1, 53);
+    font-size: 15pt;
+}
+
+
+
+/* Seletor de irmão adjacente */
+
+/*footer*/
+p+h4 {
+
+    text-align: right;
+    font-size: 13pt;
+    color: rgb(80, 2, 2);
+    font-style: italic;
+}
+
+
+
+
+/* Seletor de atributo */
+
+input[type="text"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: rgb(43, 174, 226);
+}
+
+input[type="email"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: rgb(43, 174, 226);
+}
+
+button[type="submit"] {
+    border-radius: 5px;
+    border-color: rgb(96, 71, 241);
+
+}
+
+
+
+
+/* Seletores de classe */
+
+.titulo {
+    font-size: 28pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(153, 5, 5);
+    text-align: center;
+    text-shadow: 1cap 1cap 1cap black;
+    text-decoration: underline;
+}
+
+
+.marginpadding {
+    margin: 1%;
+    padding: 0.5%;
+}
+
+
+.secao {
+    margin-left: 5%;
+}
+
+
+.button {
+    margin-left: 43%;
+    margin-top: 2%;
+
+
+}
+
+
+
+
+/* Seletores de pseudo-classes */
+
+.links:hover {
+    text-decoration: none;
+    color: rgb(59, 2, 2);
+
+
+}
+
+.links2:hover {
+    translate: 2px 2px;
+}
+
+a:visited {
+    color: rgb(153, 5, 5);
+    font-style: italic;
+}
+
+
+input:hover {
+    border-color: blue;
+}
+
+button:hover {
+    border-color: rgb(5, 2, 29);
+    background-color: rgb(102, 96, 96);
+}
+
+button:active {
+    border-color: rgb(5, 2, 29);
+    background-color: rgb(5, 2, 29);
+    color: white;
+}
